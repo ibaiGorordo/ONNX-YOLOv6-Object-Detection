@@ -33,7 +33,7 @@ pip install git+https://github.com/zizo-pro/pafy@b8976f22c19e4ab5515cacbfae0a397
 ```
 
 # ONNX model 
-The original model was converted to ONNX using the following Colab notebook from the original repository:
+The original model was converted to ONNX using the following Colab notebook from the original repository, run the notebook and save the download model into the [models  folder](https://github.com/ibaiGorordo/ONNX-YOLOv6-Object-Detection/tree/main/models):
 - **Convert YOLOv6 ONNX for Inference** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pke1ffMeI2dXkIAbzp6IHWdQ0u8S6I0n?usp=sharing)
 - The License of the models is GPL-3.0 license: [License](https://github.com/meituan/YOLOv6/blob/main/LICENSE)
 
