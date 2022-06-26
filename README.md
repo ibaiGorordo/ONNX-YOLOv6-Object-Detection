@@ -66,7 +66,7 @@ The original Pytorch model can be found in this repository: [YOLOv6 Repository](
  ```
  python video_object_detection.py
  ```
-**Convert YOLOv5 model to ONNX**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V-F3erKkPun-vNn28BoOc6ENKmfo8kDh?usp=sharing)
+Convert YOLOv5 model to ONNX: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V-F3erKkPun-vNn28BoOc6ENKmfo8kDh?usp=sharing)
 
 # References:
 * YOLOv6 model: https://github.com/meituan/YOLOv6
