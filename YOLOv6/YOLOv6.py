@@ -104,7 +104,7 @@ class YOLOv6:
 
     def draw_detections(self, image, draw_scores=True, mask_alpha=0.4):
         return draw_detections(image, self.boxes, self.scores,
-                               self.class_ids)
+                               self.class_ids, mask_alpha)
 
     def get_input_details(self):
         model_inputs = self.session.get_inputs()
