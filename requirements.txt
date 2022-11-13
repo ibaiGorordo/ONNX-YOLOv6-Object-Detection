@@ -1,3 +1,4 @@
 opencv-python
 imread-from-url
 onnxruntime-gpu
+cap_from_youtube

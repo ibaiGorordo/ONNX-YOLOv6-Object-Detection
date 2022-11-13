@@ -1,5 +1,5 @@
 import cv2
-import pafy
+from cap_from_youtube import cap_from_youtube
 
 from YOLOv6 import YOLOv6
 
@@ -7,9 +7,7 @@ from YOLOv6 import YOLOv6
 # cap = cv2.VideoCapture("input.avi")
 
 videoUrl = 'https://youtu.be/yXEb0fWLJIY'
-videoPafy = pafy.new(videoUrl)
-print(videoPafy.streams)
-cap = cv2.VideoCapture(videoPafy.streams[-1].url)
+cap = cap_from_youtube(videoUrl)
 start_time = 0  # skip first {start_time} seconds
 cap.set(cv2.CAP_PROP_POS_FRAMES, start_time * 30)
 

@@ -13,7 +13,6 @@
 
  * Check the **requirements.txt** file. 
  * For ONNX, if you have a NVIDIA GPU, then install the **onnxruntime-gpu**, otherwise use the **onnxruntime** library.
- * Additionally, **pafy** and **youtube-dl** are required for youtube video inference.
  
 # Installation
 ```
@@ -27,12 +26,6 @@ For Nvidia GPU computers:
 
 Otherwise:
 `pip install onnxruntime`
-
-### For youtube video inference
-```
-pip install youtube_dl
-pip install git+https://github.com/zizo-pro/pafy@b8976f22c19e4ab5515cacbfae0a3970370c102b
-```
 
 # ONNX model 
 The original model was converted to ONNX using the following Colab notebook from the original repository, run the notebook and save the download model into the [models  folder](https://github.com/ibaiGorordo/ONNX-YOLOv6-Object-Detection/tree/main/models):
