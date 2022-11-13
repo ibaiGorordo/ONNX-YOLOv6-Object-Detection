@@ -14,7 +14,7 @@ cap.set(cv2.CAP_PROP_POS_FRAMES, start_time * 30)
 # out = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 30, (1280, 720))
 
 # Initialize object localizer
-model_path = "models/yolov6s.onnx"
+model_path = "models/yolov6m_base_bs1.onnx"
 yolov6_detector = YOLOv6(model_path, conf_thres=0.5, iou_thres=0.5)
 
 cv2.namedWindow("Detected Objects", cv2.WINDOW_NORMAL)
